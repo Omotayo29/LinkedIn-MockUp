@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>LinkedIn Mockup (Tailwind)</title>
+  </head>
+  <body class="bg-[#F4F2EE] font-[Segoe UI] overflow-x-hidden">
+    <!-- Navbar -->
+    <div class="flex justify-center items-center bg-white h-[54px] mb-4 px-2">
+      <div class="flex items-center gap-1">
+        <img src="img/linkedIn.png" alt="" class="h-6" />
+        <div class="flex items-center bg-[#EDF3F8] rounded w-[470.89px]">
+          <span class="pl-4 pr-2">
+            <img src="img/search-icon.png" alt="" class="h-4" />
+          </span>
+          <input
+            type="search"
+            placeholder="Search"
+            class="bg-[#EDF3F8] w-full h-[34.17px] text-sm placeholder:text-[#00000099] border-none focus:outline-none"
+          />
+        </div>
+      </div>
+      <div class="flex flex-row items-center ml-8">
+        <div class="flex flex-col items-center w-20">
+          <img src="img/house_navbar.png" class="w-6 h-6" />
+          <span class="text-xs text-[#00000099]">Home</span>
+        </div>
+        <div class="flex flex-col items-center w-20">
+          <img src="img/network_navbar.png" class="w-6 h-6" />
+          <span class="text-xs text-[#00000099]">My Network</span>
+        </div>
+        <div class="flex flex-col items-center w-20">
+          <img src="img/job_navbar.png" class="w-6 h-6" />
+          <span class="text-xs text-[#00000099]">Jobs</span>
+        </div>
+        <div class="flex flex-col items-center w-20">
+          <img src="img/msg_navbar.png" class="w-6 h-6" />
+          <span class="text-xs text-[#00000099]">Messaging</span>
+        </div>
+        <div class="flex flex-col items-center w-20 relative">
+          <img src="img/notification_navbar.png" class="w-6 h-6 z-10" />
+          <img
+            src="img/notification_icon_navbar.png"
+            class="absolute top-0 left-4 w-4 h-4"
+          />
+          <span class="text-xs text-[#00000099]">Notifications</span>
+        </div>
+        <div class="flex flex-col items-center w-20">
+          <img src="img/profile_image.png" class="w-6 h-6" />
+          <select class="text-xs text-[#00000099] border-none">
+            <option>Me</option>
+          </select>
+        </div>
+        <div class="w-px h-[68px] bg-[#0000002a] mx-3"></div>
+        <div class="flex flex-col items-center w-20">
+          <img src="img/business_navbar.png" class="w-6 h-6" />
+          <select class="text-xs text-[#00000099] border-none">
+            <option>For Business</option>
+          </select>
+        </div>
+        <div class="flex flex-col items-center w-20">
+          <img src="img/premium_navbar.png" class="w-6 h-6" />
+          <span class="text-xs text-[#00000099]">My Premium</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Profile Section -->
+    <div class="flex flex-row gap-6 mx-[260px]">
+      <div class="w-[804px] bg-white rounded-lg">
+        <div class="pb-4">
+          <div class="relative">
+            <img src="img/Frame.png" class="rounded-xl w-full" />
+            <img
+              src="img/Container.png"
+              class="absolute top-[160px] left-[290px]"
+            />
+          </div>
+          <div class="flex justify-end pr-4 pb-2">
+            <img src="img/pen.png" class="h-4" />
+          </div>
+        </div>
+        <div class="flex justify-between px-6 text-sm text-[#00000099] pb-2">
+          <div>
+            <p class="text-xl font-semibold">
+              Kate Elodie Mohr
+              <span class="text-sm font-normal text-[#00000099]">
+                (They/Them)
+              </span>
+            </p>
+            <p class="font-semibold">
+              Web Developer and Digital UI/UX Designer
+            </p>
+            <p>
+              Australia &bull;
+              <span class="text-[#0A66C2] font-semibold">Contact Info</span>
+            </p>
+            <p class="text-[#0A66C2] font-semibold">500 + connections</p>
+            <div class="flex gap-1 pt-1">
+              <button class="flex items-center gap-1 bg-[#0A66C2] text-white text-base font-semibold px-4 py-1 rounded-full">
+                <img
+                  src="img/message_logo.png"
+                  alt=""
+                  class="w-4 h-4"
+                />
+                Message
+              </button>
+              <button class="text-[#000000BF] border border-[#000000BF] rounded-full px-4 py-1 font-semibold text-base">
+                More
+              </button>
+            </div>
+          </div>
+          <div class="flex flex-col gap-2 pt-1 text-[#000000E5] font-semibold text-sm">
+            <div class="flex items-center gap-2">
+              <img src="img/overloading_logo.png" class="w-8" />
+              <span>Overlanding</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <img src="img/media_growth_logo.png" class="w-8" />
+              <span>Media Growth Inc.</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-row gap-5 px-6 py-2">
+          <div class="bg-[#DDE7F1] rounded-lg p-3 w-[350px] h-[60px]">
+            <p class="font-semibold text-sm text-[#000000E5]">Open to work</p>
+            <p class="text-sm text-[#000000E5]">
+              Digital Designer, UI/UX Designer, Website Developer...
+            </p>
+            <p class="font-semibold text-sm text-[#0A66C2]">Show details</p>
+          </div>
+          <div class="bg-[#DDE7F1] rounded-lg p-3 w-[350px] h-[60px]">
+            <p class="font-semibold text-sm text-[#000000E5]">Providing Services</p>
+            <p class="text-sm text-[#000000E5]">
+              SEO Marketing, Website Optimization, Web Design...
+            </p>
+            <p class="font-semibold text-sm text-[#0A66C2]">Show details</p>
+          </div>
+        </div>
+        <div class="bg-white mt-6 rounded-lg px-6 py-4">
+          <p class="text-2xl font-bold text-[#000000E5]">About</p>
+          <p class="text-sm text-[#00000099] py-2">
+            Pizza ipsum dolor meat lovers buffalo. Crust tomato Aussie green roll beef mozzarella green pie. Hawaiian beef mozzarella crust Hawaiian Hawaiian. Bianca deep pesto personal mayo garlic. Mayo mayo stuffed...
+            <span class="text-[#00000099]">...see more</span>
+          </p>
+          <div class="border border-[#00000016] mt-3 p-3 flex items-start gap-3">
+            <img src="img/diamond.png" class="w-6 h-6" />
+            <div class="text-[#000000E5] text-sm">
+              <p class="font-medium">Top Skills</p>
+              <p>
+                Wordpress Development • Digital Designs • UI/UX • WCAG • SEO
+              </p>
+            </div>
+            <img src="img/arrow.png" class="w-8 h-8 mt-2" />
+          </div>
+        </div>
+        <div class="bg-white mt-4 rounded-lg px-6 py-4">
+          <p class="text-2xl font-bold text-[#000000E5]">Services</p>
+          <p class="text-sm text-[#00000099] py-2">
+            Pizza ipsum dolor meat lovers buffalo. And NY garlic fresh lovers. Mouth mayo buffalo chicken sausage wing wing sautéed. Bianca Aussie dolor stuffed banana NY buffalo thin anchovies NY. Pan dolor wing marinara bell beef...<span class="text-[#00000099]">see more</span>
+          </p>
+          <p class="text-sm font-semibold py-1">
+            Logo Design • Brand Design • Web Design • Web Development
+          </p>
+          <button class="border border-[#000000AA] rounded-full px-4 py-1 font-semibold text-base">
+            Request services
+          </button>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="w-[270px] h-[180px] bg-white rounded-lg p-4">
+        <div class="flex justify-between items-center">
+          <span class="font-semibold text-lg text-[#000000E5]">Profile Language</span>
+          <img src="img/pen.png" class="w-6 h-6" />
+        </div>
+        <div class="flex gap-2 py-3 justify-between">
+          <button class="bg-[#01754F] text-white rounded-full px-6 py-1">
+            English
+          </button>
+          <button class="border border-[#0000004D] rounded-full px-6 py-1">
+            Español
+          </button>
+        </div>
+        <hr class="border-[#0000001B]" />
+        <div class="pt-2">
+          <div class="flex justify-between font-semibold text-lg text-[#000000E5]">
+            Public profile & URL
+            <img src="img/pen.png" class="w-6 h-6" />
+          </div>
+          <p class="text-sm text-[#00000099]">
+            www.linkedin.com/in/kate-elodie-mohr-designer
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="fixed right-2 bottom-0 flex gap-5 bg-white p-2 w-[260px] justify-between rounded-lg shadow-md">
+      <div class="flex items-center gap-2">
+        <img src="img/profile_image.png" class="w-8" />
+        <span>Messaging</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <i class="fa-solid fa-ellipsis text-black"></i>
+        <i class="fa-solid fa-pen-to-square text-black"></i>
+        <i class="fa-solid fa-angle-up text-black"></i>
+      </div>
+    </footer>
+  </body>
+</html>
